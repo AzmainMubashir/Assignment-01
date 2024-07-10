@@ -34,7 +34,7 @@ text-align: center;
 margin: 0px 10px;
 }
 .banner{
-  background-image: url();
+  background-image: url(../images/Hero-bg.png);
 }
 .tittle-img{
   display: block;
