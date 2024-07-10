@@ -448,3 +448,129 @@ font-weight: 700;
 text-align: left;
 text-decoration-line: underline;
 }
+.btm-bg{
+/* background-image: url(../images/handshake.jpg); */
+background: rgba(0, 0, 0, 0.6) url('../images/handshake.jpg');
+background-blend-mode: darken;
+background-position: center;
+/* opacity: .95; */
+position: absolute;
+width: 1140px;
+height: 314px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+border-radius: 16px;
+margin: 3600px 120px 60px 100px;
+padding: 64px 48px 64px 48px;
+}
+
+.btm-txt{
+ position: static;
+ width: 292px;
+ height: 36px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 46px auto 0px 450px; 
+ color: rgb(255, 255, 255);
+ font-size: 32px;
+ font-weight: 700;
+ text-align: center;
+}
+.btm-p{
+  position: static;
+  width: 606px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 26px auto 0px 300px;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.brm-form{
+  position: static;
+  width: 684px;
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 24px 0px;
+}
+.btm-input{
+  position: absolute;
+  width: 600px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+  margin: 0px 0px 16px 200px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  
+}
+.btm-btn{
+  position: absolute;
+  width: 120px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px 17px 20px;
+  margin: 0px 16px 0px 825px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+footer div ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: static;
+  width: 157.01px;
+  height: 36px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 10px;
+}
+footer div{
+  display: flex;
+  justify-content: space-around;
+}
+footer{
+position: absolute;
+display: flex;
+width: 100%;
+justify-content: center;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+margin: 4050px 0px 10px 80px; 
+}
+.footer-text{
+  position: static;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 16px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
